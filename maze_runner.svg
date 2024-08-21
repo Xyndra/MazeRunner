@@ -1,0 +1,9 @@
+<!-- Yellow maze with a green play icon on the bottom right corner -->
+<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" width="32" height="32" viewBox="0 0 32 32" fill="none">
+    <path stroke="yellow" d="M 30.5,2 H 2 V 25 m -0.5,5 H 30 V 8
+                             h -11.5 v 6 h 5 v 5.5
+                             m 0,11 v -5.5 h -5 v -5 h -11 v 5
+                             m 5.5,0 v 5
+                             M 7.5,2 v 6 h 5.5 v 6 h -6"/>
+    <path stroke="green" stroke-width="0.5" fill="#0b4" d="M19.504,16.877A1,1,-59.743562836470744,0,0,18,17.741L18,28.259A1,1,-59.74356283647073,0,0,19.504,29.123L28.519,23.864A1,1,-60.512874327058526,0,0,28.519,22.136Z"/>
+</svg>
