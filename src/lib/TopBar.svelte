@@ -1,5 +1,5 @@
 <script lang="ts">
-    import maze_runner_logo from '/maze_runner.svg'
+    const logo_path = `${import.meta.env.BASE_URL}maze_runner.svg`;
     import { infinite } from "../store";
 
     let toggleInfiniteMazes = (event: Event) => {
@@ -13,7 +13,7 @@
 </script>
 
 <div class="flex flex-row p-1 items-center bg-neutral">
-    <img src={maze_runner_logo} alt="Maze Runner" class="w-12 h-12 m-2" />
+    <img src={logo_path} alt="Maze Runner" class="w-12 h-12 m-2" />
     <h1 class="text-3xl font-bold mr-2">Maze Runner</h1>
     <h2 class="text-xl font-bold text-gray-500 translate-y-0.5">-  Maze algorithm visualizer and tester</h2>
     <div class="flex-grow"></div>
